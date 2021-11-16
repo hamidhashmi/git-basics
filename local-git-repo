@@ -50,5 +50,6 @@ $ git push origin master
 $ git push -u origin master
 
 u sets upstream for further push so that only git push can be used henceforth without typing "origin master"
+ that is $ git push
 
-Refresh the page on gh.
+Refresh the page on gh, all the files pushed from local should be visible now.
