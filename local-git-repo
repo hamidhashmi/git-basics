@@ -1,0 +1,54 @@
+#### Create a git repository on your local system ####
+
+1. $ mkdir git-basics
+
+2. There isn't any .git folder in this directory created.
+
+3. Add a README file
+
+4. To 
+
+$ git init
+
+initialize git repository in the current dir
+
+.git dir should be present now.
+
+$ git status => untracked readme file
+
+$ git add README.md
+
+git status = file ready to be committed.
+
+$ git commit -m 'created README'
+
+$ git push origin master ==== fatal error 
+
+because we did not clone this down from a git repo
+
+git does not know where to push the files to since there is no connection between local and github.
+
+We have to create that connection.
+
+go to git hub 
+
+Create an empty repo on gh - name it
+
+to start pushing
+
+$ git remote add origin git@github.com:hamidhashmi/git-basics.git
+remote means somewhere else and not on this computer.
+
+adds a reference to the remote
+
+$ git remote -v
+
+shows any remote repo  that I have connected to this repo
+
+$ git push origin master
+
+$ git push -u origin master
+
+u sets upstream for further push so that only git push can be used henceforth without typing "origin master"
+
+Refresh the page on gh.

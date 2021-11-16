@@ -1,0 +1,5 @@
+#### Push files from our local to github ####
+
+$ git push origin master
+
+master is the branch we want to push the code to

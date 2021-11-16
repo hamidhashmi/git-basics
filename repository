@@ -1,0 +1,10 @@
+### Create repositories
+
+#### On Github
+
+1. Login to https://github.com with your credentials
+2. Repositories > create > name it as per your requirement
+3. Once the repository is created > select clone/download option > copy the https or ssh link
+4. Go to your git bash terminal on your local system and enter the command - git clone <repo_name>
+5. On your local system we see a folder of the name of the repository created on github. Inside this folder there is a README.md file created automatically.
+6. 

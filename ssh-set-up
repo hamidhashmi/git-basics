@@ -1,0 +1,35 @@
+##### SSH keys and git ####
+##### To prove to github that you are the owner of your account + clone repos using ssh ####
+
+1. To push your local files to github, one needs to set up ssh connection.
+
+2. Generate ssh keys locally using the command -> $ ssh-keygen -t rsa -b 4096 -C "hamidhashmi7@gmail.com"
+
+where : t = type of encryption
+        b = strength of encryption
+	C = your github email address
+
+Default file location is the user's ~/.ssh directory
+
+3. 2 keys are generated id_rsa and id_rsa.pub
+
+4. Former is the private key and the latter is the public key.
+
+5. .pub key is uploaded to your github interface.
+
+6. pvt key is the one to authenticate that you are the one who has created the public key = identity.
+
+7. Copy the content of the .pub file using pbcopy < path_of_file
+
+8. gh - setting - ssh and gpg keys > new ssh keys> any title > paste > save > successfully added
+
+9. Your local git cli should be aware of the key you just generated. Therefore, add your ssh key to the ssh-agent.
+
+10. Ensure ssh-agent is running
+# start the ssh-agent in the background
+$ eval "$(ssh-agent -s)"
+> Agent pid 59566
+
+10. Add your ssh private key to the ssh-agent.
+
+$ ssh-add ~/.ssh/id_rsa
