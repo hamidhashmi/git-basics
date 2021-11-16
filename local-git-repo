@@ -1,4 +1,5 @@
 #### Create a git repository on your local system ####
+#### Lines starting with a dollar($) sign indicates a command being run on git bash terminal ####
 
 1. $ mkdir git-basics
 
@@ -6,7 +7,7 @@
 
 3. Add a README file
 
-4. To 
+4. To make this folder a git one run the below initialisation command
 
 $ git init
 
