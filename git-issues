@@ -1,0 +1,19 @@
+#### List of issues faced while working with git ####
+
+1.
+
+hamid@DESKTOP-JRG0F8J MINGW64 ~/repos/terraform (master)
+$ git push -u origin master
+To github.com:hamidhashmi/hello-world.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'github.com:hamidhashmi/hello-world.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+hamid@DESKTOP-JRG0F8J MINGW64 ~/repos/terraform (master)
+$
+
+# I had renamed hello-world repo to terraform both locally (mv) and on gh using rename option
