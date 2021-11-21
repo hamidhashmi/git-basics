@@ -1,0 +1,46 @@
+### Create repositories
+
+#### On Github
+
+1. Login to https://github.com with your credentials
+2. Repositories > create > name it as per your requirement
+3. Once the repository is created > select clone/download option > copy the https or ssh link
+4. Go to your git bash terminal on your local system and enter the command - git clone <repo_name>
+5. On your local system we see a folder of the name of the repository created on github. Inside this folder there is a README.md file created automatically.
+6.
+
+
+#### On your local system first and then push on GH ####
+
+1. $ gh repo create practical-networking
+
+2.
+
+$ gh repo create practical-networking
+? Visibility  [Use arrows to move, type to filter]
+> Public
+  Private
+  Internal
+3. .gitignore tells git to ignore such files and never track them for staging/commit.
+
+4. ? Would you like to add a .gitignore? Yes
+? Choose a .gitignore template  [Use arrows to move, type to filter]
+> Actionscript
+  Ada
+  Agda
+  Android
+  AppEngine
+  AppceleratorTitanium
+  ArchLinuxPackages
+
+
+hamid@DESKTOP-JRG0F8J /cygdrive/c/Users/hamid/repos
+$ gh repo create practical-networking
+? Visibility Public
+? Would you like to add a .gitignore? Yes
+? Choose a .gitignore template Python
+? Would you like to add a license? No
+? This will add an "origin" git remote to your local repository. Conti
+nue? Yes
+✓ Created repository hamidhashmi/practical-networking on GitHub
+
