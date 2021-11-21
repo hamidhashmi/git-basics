@@ -1,5 +1,9 @@
 ### Create repositories
+When you clone a repo using a cmd like git@github.com:hamidhashmi/practical-networking.git, .git directory is automatically created in the created repo. This implies that it has been configured/initialised as a git repo.
 
+Whereas, on cli
+When you create a dir on your local system, you must run git init command to configure it as a git repo.
+Then you make the same repo on github.
 #### On Github
 
 1. Login to https://github.com with your credentials
